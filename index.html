@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="questao03.js"></script>
+    <title>Transações</title>
+</head>
+<body>
+    <h1>Controle de Transações</h1>
+    <form id="transacoes">
+        <label for="descricao">Descrição:</label>
+        <input type="text" id="descricao" required>
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" required>
+        <button type="button" id="add">Adicionar</button>
+    </form>
+    <table id="Tabela">
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <p id="total">Saldo Total: R$ <span id="balanco">0.00</span></p>
+    
+</body>
+</html>
